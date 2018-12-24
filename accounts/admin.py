@@ -5,7 +5,7 @@ from django.contrib import admin
 
 
 
-CustomUser = get_user_model()
-admin.site.unregister(CustomUser)
-admin.site.register(CustomUser)
+User = get_user_model()
+
+admin.site.register(User)
 #admin.site.register(Profile)

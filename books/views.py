@@ -19,7 +19,7 @@ class BookCreateView(PassRequestMixin, SuccessMessageMixin,
                      generic.CreateView):
     template_name = 'books/create_book.html'
     form_class = BookForm
-    success_message = 'Success: Book was created.'
+    success_message = 'Success: User was created.'
     success_url = reverse_lazy('index')
 
 

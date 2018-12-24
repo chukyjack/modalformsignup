@@ -146,3 +146,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media_files")
 AUTHENTICATION_BACKENDS = ['accounts.backends.EmailBackend',
                            'django.contrib.auth.backends.ModelBackend',
                            ]
+AUTH_USER_MODEL = 'accounts.User'

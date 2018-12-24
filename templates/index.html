@@ -9,9 +9,9 @@
       <div class="col">
        <!-- <p class="text-primary">A jQuery plugin for creating AJAX driven Django forms in Bootstrap modal.</p>
         <h4>
-          <strong></strong>
+          <strong>1. Signup form</strong>
         </h4>
-        <p></p>
+        <p>Sign up via Bootstrap modal.</p>
         <div class="row">
           <div class="col-12 mb-3">
             <button class="signup-btn btn btn-primary" type="button" name="button">Sign up</button>
@@ -39,11 +39,11 @@
           <strong></strong>
         </h4>
         <p></p>-->
-        {% if user.is_authenticated %}
+
         <div class="row">
           <div class="col-12 mb-3">
             <button class="create-book btn btn-primary" type="button" name="button">
-              <span class="fa fa-plus mr-2"></span>Create User</button>
+              <span class="fa fa-plus mr-2"></span>Create book</button>
           </div>
           <div class="col-12 mb-3">
             {% if books %}
@@ -89,7 +89,6 @@
             {% else %}
               <p class="text-primary">No books added yet.</p>
             {% endif %}
-          {% endif %}
           </div>
         </div>
 
