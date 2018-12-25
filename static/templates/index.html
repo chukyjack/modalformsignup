@@ -39,7 +39,7 @@
           <strong></strong>
         </h4>
         <p></p>-->
-
+        {% if user.is_authenticated %}
         <div class="row">
           <div class="col-12 mb-3">
             <button class="create-book btn btn-primary" type="button" name="button">
@@ -91,7 +91,7 @@
             {% endif %}
           </div>
         </div>
-
+        {% endif %}
       </div>
     </div>
   </div>
